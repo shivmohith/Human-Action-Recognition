@@ -22,3 +22,6 @@ Consists of six human action classes:walking, jogging, running, boxing, waving a
 
 ## Running the application
 1. Run [feature_extraction.m](https://github.com/Shivmohith/Human-Action-Recognition/blob/master/Codes/feature_extraction.m) to perform the steps 1 to 4 explained in Methodology.
+2. Run [kmeans_bag_of_features.m](https://github.com/Shivmohith/Human-Action-Recognition/blob/master/Codes/kmeans_bag_of_features.m) to perform kmeans to get the clusters and obtain the bag of features. 
+**Number of clusters can be varied and experimented with**
+3. Use [Classification_Learner](https://in.mathworks.com/help/stats/train-classification-models-in-classification-learner-app.html) from MATLAB to train the SVM model and perform the classification.
